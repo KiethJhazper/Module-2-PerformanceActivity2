@@ -1,0 +1,38 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table tr:nth-child(Even){
+    background-color: aqua;
+}
+table tr:nth-child(Odd){
+    background-color: #F5E9CF;
+}
+body{
+    margin: 50px;
+    background-image: url(Pictures/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+table{
+    margin-left: 12%;
+    border-collapse: collapse;
+    width: 75%;
+    color: black;
+    font-size: 30px;
+}
+th, td{
+    border: 3px solid black;
+    padding: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+    width: 500px;
+}
+#head{
+    background-color: #66347F;
+    color: white;
+}
